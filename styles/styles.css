@@ -17,13 +17,13 @@ section {
   margin-top: 30px;
 }
 
-.chili {
+.recipe-link {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.chili > a {
+.recipe-link > a {
   text-decoration: none;
   color: black;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -33,8 +33,8 @@ section {
   padding-bottom: 25px;
 }
 
-.index-chili {
+.index-recipe {
   height: 600px;
-  width: 300px;
-  border-radius: 15px;
+  width: 350px;
+  border-radius: 10px;
 }
