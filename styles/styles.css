@@ -42,3 +42,12 @@ section {
   width: 350px;
   border-radius: 10px;
 }
+
+body#chili {
+  background-color: white;
+}
+
+.chili-recipe {
+  height: 400px;
+  width: 400px;
+}
