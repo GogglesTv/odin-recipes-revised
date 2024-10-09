@@ -11,20 +11,24 @@ header {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+body {
+  background-color: antiquewhite;
+}
+
 section {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
 }
 
-.recipe-link {
+.recipe-link > a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-decoration: none;
 }
 
-.recipe-link > a {
-  text-decoration: none;
+.recipe-link > a > p {
   color: black;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
