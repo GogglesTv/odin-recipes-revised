@@ -60,10 +60,6 @@ section.img-recipe {
   height: 100vh;
 }
 
-section.img-recipe > img {
-  margin-top: 100px;
-}
-
 section.img-recipe > div.ingredients {
   margin-bottom: 50px;
 }
@@ -79,4 +75,34 @@ section.img-recipe > div.ingredients > ul {
 .chili-recipe {
   height: 350px;
   width: 350px;
+}
+
+section.title-desc-directions {
+  padding-left: 25px;
+}
+
+div.title-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+h1.recipe-title {
+  text-align: center;
+}
+
+p.recipe-description {
+  text-align: center;
+}
+
+h1.recipe-title {
+  font-size: 72px;
+}
+
+div.recipe-directions {
+  margin-top: -300px;
+}
+
+div.recipe-directions > h2 {
+  font-size: 48px;
+  text-align: center;
 }
